@@ -1,0 +1,38 @@
+body{
+    font-family: verdana;
+}
+/*css menu*/
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.navbar{
+    background: #aa983f;
+}
+.navbar ul li a{
+    color: #DDDAD0 !important;
+    font-weight: bold;
+}
+.navbar ul li a:hover{
+    color: white !important;
+}
+/*bg-color submenu*/
+.navbar .dropdown ul li a{
+    background: #aa983f !important;
+}
+.navbar .dropdown-toggle{
+    background: #aa983f !important;
+}
+.navbar .dropdown-menu{
+    background: #aa983f !important;
+}
+/*css btn*/
+button{
+    background-color: #8e8e8e;
+    color: #DDDAD0;
+    font-weight: bold !important;
+}
+button:hover{
+    color: white !important;
+}
